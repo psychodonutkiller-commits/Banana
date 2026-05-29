@@ -1,1 +1,103 @@
-<html><head><meta content="text/html; charset=UTF-8" http-equiv="content-type"><style type="text/css">ol{margin:0;padding:0}table td,table th{padding:0}.c0{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:"Arial";font-style:normal}.c1{padding-top:0pt;padding-bottom:0pt;line-height:1.15;orphans:2;widows:2;text-align:left}.c2{background-color:#ffffff;max-width:468pt;padding:72pt 72pt 72pt 72pt}.title{padding-top:0pt;color:#000000;font-size:26pt;padding-bottom:3pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}.subtitle{padding-top:0pt;color:#666666;font-size:15pt;padding-bottom:16pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}li{color:#000000;font-size:11pt;font-family:"Arial"}p{margin:0;color:#000000;font-size:11pt;font-family:"Arial"}h1{padding-top:20pt;color:#000000;font-size:20pt;padding-bottom:6pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h2{padding-top:18pt;color:#000000;font-size:16pt;padding-bottom:6pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h3{padding-top:16pt;color:#434343;font-size:14pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h4{padding-top:14pt;color:#666666;font-size:12pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h5{padding-top:12pt;color:#666666;font-size:11pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h6{padding-top:12pt;color:#666666;font-size:11pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;font-style:italic;orphans:2;widows:2;text-align:left}</style></head><body class="c2 doc-content"><p class="c1"><span class="c0">&lt;!DOCTYPE html&gt;</span></p><p class="c1"><span class="c0">&lt;html&gt;</span></p><p class="c1"><span class="c0">&lt;head&gt;</span></p><p class="c1"><span class="c0">&lt;style&gt;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; .minion {</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; width: 120px;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; height: 180px;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; background: linear-gradient(to bottom, #FFE135 60%, #1E90FF 60%);</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; border-radius: 60px 60px 40px 40px;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; position: relative;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; margin: 50px auto;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; }</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; </span></p><p class="c1"><span class="c0">&nbsp; &nbsp; /* Goggle strap */</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; .minion::before {</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; content: &#39;&#39;;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; position: absolute;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; width: 140px;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; height: 12px;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; background: #333;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; top: 50px;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; left: -10px;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; z-index: -1;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; }</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; </span></p><p class="c1"><span class="c0">&nbsp; &nbsp; /* Goggle */</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; .goggle {</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; width: 80px;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; height: 80px;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; background: linear-gradient(to bottom, #666 20%, #eee 20%, #eee 80%, #333 80%);</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; border-radius: 50%;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; position: absolute;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; top: 15px;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; left: 20px;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; }</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; </span></p><p class="c1"><span class="c0">&nbsp; &nbsp; /* Eye */</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; .eye {</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; width: 40px;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; height: 40px;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; background: white;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; border-radius: 50%;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; position: absolute;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; top: 20px;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; left: 20px;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; }</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; </span></p><p class="c1"><span class="c0">&nbsp; &nbsp; .pupil {</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; width: 20px;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; height: 20px;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; background: #4A2511;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; border-radius: 50%;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; position: absolute;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; top: 10px;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; left: 10px;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; }</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; </span></p><p class="c1"><span class="c0">&nbsp; &nbsp; /* Mouth */</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; .mouth {</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; width: 40px;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; height: 15px;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; border-bottom: 4px solid #333;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; border-radius: 50%;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; position: absolute;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; top: 100px;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; left: 40px;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; }</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; </span></p><p class="c1"><span class="c0">&nbsp; &nbsp; /* Arms */</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; .arm {</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; width: 20px;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; height: 50px;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; background: #333;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; position: absolute;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; top: 70px;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; border-radius: 10px;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; }</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; </span></p><p class="c1"><span class="c0">&nbsp; &nbsp; .arm.left { left: -15px; transform: rotate(20deg); }</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; .arm.right { right: -15px; transform: rotate(-20deg); }</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; </span></p><p class="c1"><span class="c0">&nbsp; &nbsp; /* Glove */</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; .glove {</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; width: 25px;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; height: 25px;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; background: #333;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; border-radius: 50%;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; position: absolute;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; bottom: -5px;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; }</span></p><p class="c1"><span class="c0">&lt;/style&gt;</span></p><p class="c1"><span class="c0">&lt;/head&gt;</span></p><p class="c1"><span class="c0">&lt;body&gt;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &lt;div class=&quot;minion&quot;&gt;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;goggle&quot;&gt;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;eye&quot;&gt;&lt;div class=&quot;pupil&quot;&gt;&lt;/div&gt;&lt;/div&gt;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;mouth&quot;&gt;&lt;/div&gt;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;arm left&quot;&gt;&lt;div class=&quot;glove&quot;&gt;&lt;/div&gt;&lt;/div&gt;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;arm right&quot;&gt;&lt;div class=&quot;glove&quot;&gt;&lt;/div&gt;&lt;/div&gt;</span></p><p class="c1"><span class="c0">&nbsp; &nbsp; &lt;/div&gt;</span></p><p class="c1"><span class="c0">&lt;/body&gt;</span></p><p class="c1"><span class="c0">&lt;/html&gt;</span></p></body></html>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    .minion {
+        width: 120px;
+        height: 180px;
+        background: linear-gradient(to bottom, #FFE135 60%, #1E90FF 60%);
+        border-radius: 60px 60px 40px 40px;
+        position: relative;
+        margin: 50px auto;
+    }
+    
+    /* Goggle strap */
+    .minion::before {
+        content: '';
+        position: absolute;
+        width: 140px;
+        height: 12px;
+        background: #333;
+        top: 50px;
+        left: -10px;
+        z-index: -1;
+    }
+    
+    /* Goggle */
+    .goggle {
+        width: 80px;
+        height: 80px;
+        background: linear-gradient(to bottom, #666 20%, #eee 20%, #eee 80%, #333 80%);
+        border-radius: 50%;
+        position: absolute;
+        top: 15px;
+        left: 20px;
+    }
+    
+    /* Eye */
+    .eye {
+        width: 40px;
+        height: 40px;
+        background: white;
+        border-radius: 50%;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+    
+    .pupil {
+        width: 20px;
+        height: 20px;
+        background: #4A2511;
+        border-radius: 50%;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    
+    /* Mouth */
+    .mouth {
+        width: 40px;
+        height: 15px;
+        border-bottom: 4px solid #333;
+        border-radius: 50%;
+        position: absolute;
+        top: 100px;
+        left: 40px;
+    }
+    
+    /* Arms */
+    .arm {
+        width: 20px;
+        height: 50px;
+        background: #333;
+        position: absolute;
+        top: 70px;
+        border-radius: 10px;
+    }
+    
+    .arm.left { left: -15px; transform: rotate(20deg); }
+    .arm.right { right: -15px; transform: rotate(-20deg); }
+    
+    /* Glove */
+    .glove {
+        width: 25px;
+        height: 25px;
+        background: #333;
+        border-radius: 50%;
+        position: absolute;
+        bottom: -5px;
+    }
+</style>
+</head>
+<body>
+    <div class="minion">
+        <div class="goggle">
+            <div class="eye"><div class="pupil"></div></div>
+        </div>
+        <div class="mouth"></div>
+        <div class="arm left"><div class="glove"></div></div>
+        <div class="arm right"><div class="glove"></div></div>
+    </div>
+</body>
+</html>
